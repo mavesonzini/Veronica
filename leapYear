@@ -1,0 +1,49 @@
+
+puts "put a starting year"
+starting = gets.chomp
+puts "put an ending year"
+ending = gets.chomp
+
+
+for num in starting.to_i..ending.to_i
+	if num % 4 == 0 && num % 100 != 0
+		puts num
+	elsif num % 400 == 0
+		puts num
+	end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
